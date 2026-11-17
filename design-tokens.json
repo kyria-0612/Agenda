@@ -1,0 +1,73 @@
+{
+  "name": "Agenda 浅色炭灰青与灰蓝",
+  "status": "approved-visual-direction",
+  "approvedAt": "2026-10-20",
+  "scope": [
+    "palette",
+    "font-roles",
+    "overall-style",
+    "icon-language",
+    "glass-material-direction"
+  ],
+  "notApprovedByThisDecision": [
+    "preview-layout-changes",
+    "per-dialog-glass-intensity"
+  ],
+  "colors": {
+    "canvas": "#EEEEEE",
+    "surface": "#FAFAFA",
+    "text": "#222831",
+    "neutral-heading": "#393E46",
+    "muted": "#59616B",
+    "primary": "#3B4F62",
+    "selection": "#00ADB5",
+    "selection-text": "#222831",
+    "on-primary": "#FAFAFA",
+    "control-border": "#00767C",
+    "selected-soft": "#DCEFF0",
+    "divider": "#CDD2D6",
+    "danger": "#A13E36",
+    "done": "#376C60"
+  },
+  "fonts": {
+    "latin": "Space Grotesk",
+    "numerals": "Manrope",
+    "chinese-heading": "Noto Serif SC",
+    "chinese-body": "Noto Sans SC"
+  },
+  "icons": {
+    "system": "Agenda Line",
+    "grid": 24,
+    "displayReference": 21,
+    "stroke": 1.5,
+    "linecap": "butt"
+  },
+  "glassReference": {
+    "status": "reference-only-per-dialog-review-required",
+    "top": "rgba(250,250,250,0.64)",
+    "bottom": "rgba(250,250,250,0.32)",
+    "angle": "145deg",
+    "blur": "12px",
+    "saturation": "130%",
+    "radius": "18px",
+    "fallback": "#FAFAFA"
+  },
+  "androidGlassImplementation": {
+    "version": "0.5.0-motion",
+    "reference": "android/review/feedback-2026-10-27/references/02-create.png",
+    "status": "implemented-awaiting-user-device-review",
+    "topAlpha": 0.32,
+    "bottomAlpha": 0.16,
+    "borderWhiteAlpha": 0.88,
+    "blurKernelRadiusDp": 9,
+    "saturation": 1.15,
+    "radiusDp": 22,
+    "buttonRadiusDp": 11,
+    "shadowElevationDp": 20,
+    "outsideScrimAlpha": 0.025,
+    "backdrop": "static-blurred-snapshot-on-open",
+    "mountPolicy": "prepare-before-first-visible-frame"
+  },
+  "source": "prototype/charcoal-versions/v2-tokens.json",
+  "spec": "documents/整体视觉设计规范.md"
+}

@@ -1,0 +1,986 @@
+{
+  "行动卡片：{0}": [
+    "ActionScene.kt"
+  ],
+  "休闲活动": [
+    "ActionScene.kt",
+    "DeletionUi.kt",
+    "GlassOverlays.kt"
+  ],
+  "{0} 件喜欢的事": [
+    "ActionScene.kt"
+  ],
+  "{0} 项待做": [
+    "ActionScene.kt",
+    "TaskBoard.kt"
+  ],
+  "也可以，什么都不做。": [
+    "ActionScene.kt"
+  ],
+  "管理休闲活动": [
+    "ActionScene.kt"
+  ],
+  "这一类任务都完成了": [
+    "ActionScene.kt"
+  ],
+  "还没有这类任务": [
+    "ActionScene.kt"
+  ],
+  "查看事项": [
+    "ActionScene.kt"
+  ],
+  "新建任务": [
+    "ActionScene.kt",
+    "AgendaApp.kt"
+  ],
+  "尽快做": [
+    "ActionScene.kt"
+  ],
+  "一周内 · 按截止日期": [
+    "ActionScene.kt"
+  ],
+  "一周内暂无待完成任务": [
+    "ActionScene.kt"
+  ],
+  "重试": [
+    "AgendaApp.kt",
+    "DeletionUi.kt",
+    "MaterialImageViewer.kt"
+  ],
+  "切换事项视图": [
+    "AgendaApp.kt"
+  ],
+  "切换日程视图": [
+    "AgendaApp.kt"
+  ],
+  "备份与恢复": [
+    "AgendaApp.kt",
+    "GlassOverlays.kt"
+  ],
+  "Agenda品牌": [
+    "AgendaApp.kt"
+  ],
+  "周计划": [
+    "AgendaApp.kt",
+    "DeletionUi.kt",
+    "GlassOverlays.kt"
+  ],
+  "搜索": [
+    "AgendaApp.kt",
+    "GlassOverlays.kt"
+  ],
+  "首页": [
+    "AgendaApp.kt"
+  ],
+  "事项": [
+    "AgendaApp.kt",
+    "TaskBoard.kt"
+  ],
+  "日历": [
+    "AgendaApp.kt"
+  ],
+  "恢复未完成": [
+    "AgendaApp.kt",
+    "AgendaApp.kt"
+  ],
+  "完成": [
+    "AgendaApp.kt",
+    "AgendaApp.kt"
+  ],
+  "{0}：{1}": [
+    "AgendaApp.kt",
+    "DeadlineCalendar.kt"
+  ],
+  "{0} 月 {1} 日截止": [
+    "AgendaApp.kt"
+  ],
+  "这条任务已安排在同一日期、时段和时间，请调整后重试": [
+    "AgendaViewModel.kt"
+  ],
+  "这项内容已不存在，请重新选择": [
+    "AgendaViewModel.kt"
+  ],
+  "请检查填写的内容": [
+    "AgendaViewModel.kt"
+  ],
+  "材料副本暂时无法读取，请检查文件后重试": [
+    "AgendaViewModel.kt"
+  ],
+  "撤销时间已结束": [
+    "AgendaViewModel.kt"
+  ],
+  "关联内容已变化，暂时无法撤销；可先撤销相关删除后重试": [
+    "AgendaViewModel.kt"
+  ],
+  "数据集已切换，请重新打开应用": [
+    "AgendaViewModel.kt"
+  ],
+  "内容已变化，请重新核对删除范围": [
+    "AgendaViewModel.kt"
+  ],
+  "保存失败，内容已保留，请重试": [
+    "AgendaViewModel.kt"
+  ],
+  "暂时无法读取本机数据，请重试": [
+    "AgendaViewModel.kt"
+  ],
+  "今日提醒记录暂未保存，本次使用仍只提醒一次": [
+    "AgendaViewModel.kt"
+  ],
+  "备份已导出": [
+    "AgendaViewModel.kt"
+  ],
+  "视图设置未保存，请稍后重试": [
+    "AgendaViewModel.kt"
+  ],
+  "备份损坏、内容不完整或校验失败，当前数据未改变": [
+    "AgendaViewModel.kt"
+  ],
+  "暂不支持这个备份版本，当前数据未改变": [
+    "AgendaViewModel.kt"
+  ],
+  "备份超过本版大小或条目上限：附件合计 2GB、元数据 8MB、记录 10 万条": [
+    "AgendaViewModel.kt"
+  ],
+  "本机空间不足，请释放空间后重试": [
+    "AgendaViewModel.kt"
+  ],
+  "还有可撤销的删除，请先撤销或等待提示结束后重试": [
+    "AgendaViewModel.kt"
+  ],
+  "这份备份的暂存已失效，请重新选择": [
+    "AgendaViewModel.kt"
+  ],
+  "恢复前快照未能保存，恢复已停止，当前数据保留": [
+    "AgendaViewModel.kt"
+  ],
+  "数据切换未完成，原数据集与恢复前快照已保留，请重新打开应用": [
+    "AgendaViewModel.kt"
+  ],
+  "材料副本无法读取或校验不一致，操作未完成": [
+    "AgendaViewModel.kt"
+  ],
+  "操作未完成，请检查文件权限和可用空间后重试": [
+    "AgendaViewModel.kt"
+  ],
+  "导出本机数据、材料副本和设置。恢复会整体替换，不合并。": [
+    "BackupPanel.kt"
+  ],
+  "导出完整备份": [
+    "BackupPanel.kt"
+  ],
+  "选择备份恢复": [
+    "BackupPanel.kt"
+  ],
+  "正在处理…": [
+    "BackupPanel.kt"
+  ],
+  "已校验的备份": [
+    "BackupPanel.kt"
+  ],
+  "含 {0} 条任务与材料关联及任务说明": [
+    "BackupPanel.kt"
+  ],
+  "备份时间：{0}": [
+    "BackupPanel.kt"
+  ],
+  "{0} 个对象 · {1} 项任务 · {2} 份材料\n{3} 份说明 · {4} 项日程 · {5} 条周计划": [
+    "BackupPanel.kt"
+  ],
+  "{0} 项休闲活动 · {1} 张背景图片，含已保存布局及提醒记录": [
+    "BackupPanel.kt"
+  ],
+  "确认后将替换当前数据，并先自动保存恢复前快照。": [
+    "BackupPanel.kt"
+  ],
+  "取消恢复": [
+    "BackupPanel.kt"
+  ],
+  "恢复并替换当前数据": [
+    "BackupPanel.kt"
+  ],
+  "恢复前快照": [
+    "BackupPanel.kt"
+  ],
+  "自动保留最近三份，可恢复或另存到手机。": [
+    "BackupPanel.kt"
+  ],
+  "还没有恢复前快照": [
+    "BackupPanel.kt"
+  ],
+  "恢复快照：{0}": [
+    "BackupPanel.kt"
+  ],
+  "恢复这份快照": [
+    "BackupPanel.kt"
+  ],
+  "导出快照：{0}": [
+    "BackupPanel.kt"
+  ],
+  "导出": [
+    "BackupPanel.kt"
+  ],
+  "记下自己喜欢做的事，也可以什么都不做。": [
+    "DailyFeaturePanels.kt"
+  ],
+  "新的休闲活动": [
+    "DailyFeaturePanels.kt"
+  ],
+  "编辑休闲活动": [
+    "DailyFeaturePanels.kt"
+  ],
+  "休闲活动内容": [
+    "DailyFeaturePanels.kt"
+  ],
+  "请先填写休闲活动": [
+    "DailyFeaturePanels.kt"
+  ],
+  "保存中…": [
+    "DailyFeaturePanels.kt",
+    "GlassOverlays.kt",
+    "GlassOverlays.kt",
+    "GlassOverlays.kt",
+    "MaterialDetails.kt",
+    "ScheduleComposer.kt",
+    "TaskDetailsPanel.kt"
+  ],
+  "保存活动": [
+    "DailyFeaturePanels.kt"
+  ],
+  "取消编辑": [
+    "DailyFeaturePanels.kt"
+  ],
+  "还没有记录喜欢的事": [
+    "DailyFeaturePanels.kt"
+  ],
+  "编辑休闲活动：{0}": [
+    "DailyFeaturePanels.kt"
+  ],
+  "编辑": [
+    "DailyFeaturePanels.kt",
+    "GlassOverlays.kt"
+  ],
+  "删除休闲活动：{0}": [
+    "DailyFeaturePanels.kt"
+  ],
+  "删除": [
+    "DailyFeaturePanels.kt",
+    "GlassOverlays.kt"
+  ],
+  "不计入任务，也没有完成打卡要求。": [
+    "DailyFeaturePanels.kt"
+  ],
+  "界面色调": [
+    "DailyFeaturePanels.kt"
+  ],
+  "绿色": [
+    "DailyFeaturePanels.kt"
+  ],
+  "灰蓝": [
+    "DailyFeaturePanels.kt"
+  ],
+  "语言 / Language": [
+    "DailyFeaturePanels.kt"
+  ],
+  "中文": [
+    "DailyFeaturePanels.kt"
+  ],
+  "日程页背景": [
+    "DailyFeaturePanels.kt"
+  ],
+  "纯色": [
+    "DailyFeaturePanels.kt"
+  ],
+  "图片": [
+    "DailyFeaturePanels.kt",
+    "MaterialImageViewer.kt"
+  ],
+  "已选择新图片，保存后生效": [
+    "DailyFeaturePanels.kt"
+  ],
+  "使用已保存的图片副本": [
+    "DailyFeaturePanels.kt"
+  ],
+  "更换背景图片": [
+    "DailyFeaturePanels.kt"
+  ],
+  "图片会保存在应用内，并以浅色显示以便阅读。": [
+    "DailyFeaturePanels.kt"
+  ],
+  "色调会同步应用到首页、事项和日历。": [
+    "DailyFeaturePanels.kt"
+  ],
+  "背景文字（最多两行）": [
+    "DailyFeaturePanels.kt"
+  ],
+  "日程背景文字": [
+    "DailyFeaturePanels.kt"
+  ],
+  "背景文字最多两行、200 字": [
+    "DailyFeaturePanels.kt"
+  ],
+  "背景未保存，请检查图片或可用空间；填写内容已保留": [
+    "DailyFeaturePanels.kt"
+  ],
+  "正在保存…": [
+    "DailyFeaturePanels.kt"
+  ],
+  "保存背景与文字": [
+    "DailyFeaturePanels.kt"
+  ],
+  "截止日期": [
+    "DeadlineCalendar.kt"
+  ],
+  "{0} 月 {1} 日": [
+    "DeadlineCalendar.kt",
+    "ScheduleComposer.kt"
+  ],
+  "未设置": [
+    "DeadlineCalendar.kt"
+  ],
+  "清除": [
+    "DeadlineCalendar.kt"
+  ],
+  "上个月": [
+    "DeadlineCalendar.kt"
+  ],
+  "{0} 年 {1} 月": [
+    "DeadlineCalendar.kt",
+    "ScheduleScene.kt"
+  ],
+  "下个月": [
+    "DeadlineCalendar.kt"
+  ],
+  "一": [
+    "DeadlineCalendar.kt"
+  ],
+  "二": [
+    "DeadlineCalendar.kt"
+  ],
+  "三": [
+    "DeadlineCalendar.kt"
+  ],
+  "四": [
+    "DeadlineCalendar.kt"
+  ],
+  "五": [
+    "DeadlineCalendar.kt"
+  ],
+  "六": [
+    "DeadlineCalendar.kt"
+  ],
+  "日": [
+    "DeadlineCalendar.kt"
+  ],
+  "无法识别要删除的内容": [
+    "DeletionUi.kt"
+  ],
+  "这项内容已不存在": [
+    "DeletionUi.kt"
+  ],
+  "暂时无法读取删除范围，请重试": [
+    "DeletionUi.kt"
+  ],
+  "正在核对影响范围…": [
+    "DeletionUi.kt"
+  ],
+  "删除「{0}」？": [
+    "DeletionUi.kt"
+  ],
+  "对象": [
+    "DeletionUi.kt"
+  ],
+  "任务": [
+    "DeletionUi.kt",
+    "ThingsScene.kt"
+  ],
+  "材料": [
+    "DeletionUi.kt",
+    "ThingsScene.kt"
+  ],
+  "说明": [
+    "DeletionUi.kt",
+    "GlassOverlays.kt",
+    "ThingsScene.kt"
+  ],
+  "日程": [
+    "DeletionUi.kt"
+  ],
+  "关联日程": [
+    "DeletionUi.kt"
+  ],
+  "{0} 项": [
+    "DeletionUi.kt",
+    "ScheduleScene.kt"
+  ],
+  "只处理应用保存的副本，手机上的原始文件保留。": [
+    "DeletionUi.kt"
+  ],
+  "同时解除 {0} 条任务与材料的关联；删除任务不会删除所关联的材料。": [
+    "DeletionUi.kt"
+  ],
+  "删除后有 {0} 秒可以撤销，之后无法在应用内恢复。": [
+    "DeletionUi.kt"
+  ],
+  "取消": [
+    "DeletionUi.kt",
+    "GlassOverlays.kt"
+  ],
+  "内容已变化，已刷新删除范围，请重新核对后确认": [
+    "DeletionUi.kt"
+  ],
+  "这项内容已不存在，请关闭后重新选择": [
+    "DeletionUi.kt"
+  ],
+  "删除未完成，请重试": [
+    "DeletionUi.kt"
+  ],
+  "内容已变化，请关闭后重新选择": [
+    "DeletionUi.kt"
+  ],
+  "删除中…": [
+    "DeletionUi.kt"
+  ],
+  "确认删除": [
+    "DeletionUi.kt"
+  ],
+  "已删除：{0}": [
+    "DeletionUi.kt"
+  ],
+  "撤销删除：{0}": [
+    "DeletionUi.kt"
+  ],
+  "撤销": [
+    "DeletionUi.kt"
+  ],
+  "材料未保存，请检查可用空间或文件权限后重试": [
+    "GlassOverlays.kt"
+  ],
+  "背景与文字": [
+    "GlassOverlays.kt",
+    "ScheduleScene.kt"
+  ],
+  "近三天的截止提醒": [
+    "GlassOverlays.kt"
+  ],
+  "删除确认": [
+    "GlassOverlays.kt"
+  ],
+  "编辑日程": [
+    "GlassOverlays.kt"
+  ],
+  "添加日程": [
+    "GlassOverlays.kt",
+    "ScheduleComposer.kt"
+  ],
+  "任务说明与材料": [
+    "GlassOverlays.kt"
+  ],
+  "编辑说明": [
+    "GlassOverlays.kt",
+    "GlassOverlays.kt"
+  ],
+  "添加说明": [
+    "GlassOverlays.kt",
+    "GlassOverlays.kt"
+  ],
+  "{0} · 材料": [
+    "GlassOverlays.kt"
+  ],
+  "{0} · 说明": [
+    "GlassOverlays.kt"
+  ],
+  "编辑对象": [
+    "GlassOverlays.kt",
+    "GlassOverlays.kt",
+    "TaskBoard.kt"
+  ],
+  "编辑任务": [
+    "GlassOverlays.kt",
+    "GlassOverlays.kt"
+  ],
+  "新对象": [
+    "GlassOverlays.kt"
+  ],
+  "新任务": [
+    "GlassOverlays.kt"
+  ],
+  "关闭浮层": [
+    "GlassOverlays.kt"
+  ],
+  "创建任务": [
+    "GlassOverlays.kt"
+  ],
+  "创建对象": [
+    "GlassOverlays.kt"
+  ],
+  "关闭": [
+    "GlassOverlays.kt"
+  ],
+  "明天起三个自然日内，留意这些未完成任务。": [
+    "GlassOverlays.kt"
+  ],
+  "目前没有待提醒的任务": [
+    "GlassOverlays.kt"
+  ],
+  "删除对象": [
+    "GlassOverlays.kt",
+    "TaskBoard.kt"
+  ],
+  "正在复制…": [
+    "GlassOverlays.kt"
+  ],
+  "添加材料": [
+    "GlassOverlays.kt"
+  ],
+  "选择文件后保存一份副本。": [
+    "GlassOverlays.kt"
+  ],
+  "删除说明": [
+    "GlassOverlays.kt"
+  ],
+  "标题": [
+    "GlassOverlays.kt"
+  ],
+  "给这份说明起个名字": [
+    "GlassOverlays.kt"
+  ],
+  "说明标题": [
+    "GlassOverlays.kt"
+  ],
+  "正文": [
+    "GlassOverlays.kt"
+  ],
+  "记下说明…": [
+    "GlassOverlays.kt"
+  ],
+  "说明内容": [
+    "GlassOverlays.kt"
+  ],
+  "请先填写说明标题": [
+    "GlassOverlays.kt"
+  ],
+  "请先填写说明正文": [
+    "GlassOverlays.kt"
+  ],
+  "保存说明": [
+    "GlassOverlays.kt"
+  ],
+  "名称": [
+    "GlassOverlays.kt"
+  ],
+  "记下一个对象…": [
+    "GlassOverlays.kt"
+  ],
+  "记下一件事…": [
+    "GlassOverlays.kt"
+  ],
+  "课程、项目，以及你想放在一起的事情。": [
+    "GlassOverlays.kt"
+  ],
+  "适合怎么做": [
+    "GlassOverlays.kt"
+  ],
+  "可跳过": [
+    "GlassOverlays.kt"
+  ],
+  "归属、日期、意愿": [
+    "GlassOverlays.kt"
+  ],
+  "请先填写名称": [
+    "GlassOverlays.kt"
+  ],
+  "请填写有效日期，例如 2026-11-03": [
+    "GlassOverlays.kt"
+  ],
+  "保存修改": [
+    "GlassOverlays.kt",
+    "ScheduleComposer.kt"
+  ],
+  "创建": [
+    "GlassOverlays.kt"
+  ],
+  "截止 {0}": [
+    "GlassOverlays.kt"
+  ],
+  "想做": [
+    "GlassOverlays.kt",
+    "GlassOverlays.kt",
+    "GlassOverlays.kt"
+  ],
+  "该做": [
+    "GlassOverlays.kt",
+    "GlassOverlays.kt",
+    "GlassOverlays.kt"
+  ],
+  "归属": [
+    "GlassOverlays.kt"
+  ],
+  "日期": [
+    "GlassOverlays.kt"
+  ],
+  "意愿": [
+    "GlassOverlays.kt"
+  ],
+  "独立任务": [
+    "GlassOverlays.kt"
+  ],
+  "今天": [
+    "GlassOverlays.kt",
+    "ScheduleScene.kt"
+  ],
+  "明天": [
+    "GlassOverlays.kt"
+  ],
+  "三天后": [
+    "GlassOverlays.kt"
+  ],
+  "可以同时选择，也可以都不选。": [
+    "GlassOverlays.kt"
+  ],
+  "搜索内容": [
+    "GlassOverlays.kt"
+  ],
+  "对象、任务、材料、说明": [
+    "GlassOverlays.kt"
+  ],
+  "输入关键词，让内容浮现": [
+    "GlassOverlays.kt"
+  ],
+  "没有找到相关内容": [
+    "GlassOverlays.kt"
+  ],
+  "关联材料": [
+    "GlassOverlays.kt"
+  ],
+  "编辑说明与关联材料": [
+    "GlassOverlays.kt"
+  ],
+  "完成：{0}": [
+    "GlassOverlays.kt",
+    "ScheduleScene.kt"
+  ],
+  "已完成": [
+    "GlassOverlays.kt",
+    "ScheduleComposer.kt"
+  ],
+  "标记为完成": [
+    "GlassOverlays.kt"
+  ],
+  "截止日期：{0} 年 {1} 月 {2} 日": [
+    "GlassOverlays.kt"
+  ],
+  "未分类": [
+    "GlassOverlays.kt",
+    "TaskBoard.kt"
+  ],
+  "归属：{0}": [
+    "GlassOverlays.kt"
+  ],
+  "安排日程": [
+    "GlassOverlays.kt"
+  ],
+  "删除任务": [
+    "GlassOverlays.kt"
+  ],
+  "手机上没有可打开此文件的应用": [
+    "GlassOverlays.kt"
+  ],
+  "材料副本暂时无法打开，请稍后重试": [
+    "GlassOverlays.kt"
+  ],
+  "{0} 年 {1} 月 {2} 日 — {3} 月 {4} 日": [
+    "GlassOverlays.kt"
+  ],
+  "上一周": [
+    "GlassOverlays.kt"
+  ],
+  "本周": [
+    "GlassOverlays.kt"
+  ],
+  "下一周": [
+    "GlassOverlays.kt"
+  ],
+  "这一周还没有计划": [
+    "GlassOverlays.kt"
+  ],
+  "完成周计划：{0}": [
+    "GlassOverlays.kt"
+  ],
+  "编辑周计划：{0}": [
+    "GlassOverlays.kt"
+  ],
+  "删除周计划：{0}": [
+    "GlassOverlays.kt"
+  ],
+  "添加计划": [
+    "GlassOverlays.kt"
+  ],
+  "本周独立清单": [
+    "GlassOverlays.kt"
+  ],
+  "计划内容": [
+    "GlassOverlays.kt"
+  ],
+  "这一周想做什么…": [
+    "GlassOverlays.kt"
+  ],
+  "周计划内容": [
+    "GlassOverlays.kt"
+  ],
+  "请先填写计划内容": [
+    "GlassOverlays.kt"
+  ],
+  "保存计划": [
+    "GlassOverlays.kt"
+  ],
+  "这项内容已不存在，请关闭后重新选择。": [
+    "GlassOverlays.kt"
+  ],
+  "还有未保存的内容，要放弃吗？": [
+    "GlassOverlays.kt"
+  ],
+  "继续编辑": [
+    "GlassOverlays.kt"
+  ],
+  "放弃编辑": [
+    "GlassOverlays.kt"
+  ],
+  "原文件：{0}": [
+    "MaterialDetails.kt"
+  ],
+  "{0} 字节": [
+    "MaterialDetails.kt"
+  ],
+  "显示标题（可选）": [
+    "MaterialDetails.kt"
+  ],
+  "留空使用原文件名": [
+    "MaterialDetails.kt"
+  ],
+  "材料显示标题": [
+    "MaterialDetails.kt"
+  ],
+  "文字说明（可选）": [
+    "MaterialDetails.kt"
+  ],
+  "记下这份材料的内容或用途…": [
+    "MaterialDetails.kt"
+  ],
+  "材料文字说明": [
+    "MaterialDetails.kt"
+  ],
+  "保存材料信息": [
+    "MaterialDetails.kt"
+  ],
+  "还没有文字说明": [
+    "MaterialDetails.kt"
+  ],
+  "查看图片": [
+    "MaterialDetails.kt"
+  ],
+  "打开材料": [
+    "MaterialDetails.kt"
+  ],
+  "编辑标题与说明": [
+    "MaterialDetails.kt"
+  ],
+  "删除材料": [
+    "MaterialDetails.kt"
+  ],
+  "应用内图片查看": [
+    "MaterialImageViewer.kt"
+  ],
+  "复位": [
+    "MaterialImageViewer.kt"
+  ],
+  "关闭图片": [
+    "MaterialImageViewer.kt"
+  ],
+  "图片预览，双指缩放，双击放大或复位，缩放 {0}%": [
+    "MaterialImageViewer.kt"
+  ],
+  "图片暂时无法显示": [
+    "MaterialImageViewer.kt"
+  ],
+  "文件可能损坏或格式暂不支持，可以重试。": [
+    "MaterialImageViewer.kt"
+  ],
+  "双指缩放 · 双击放大 · 放大后拖动": [
+    "MaterialImageViewer.kt"
+  ],
+  "这项日程已不存在，请关闭后重新选择。": [
+    "ScheduleComposer.kt"
+  ],
+  "{0} 年": [
+    "ScheduleComposer.kt"
+  ],
+  "收起日期": [
+    "ScheduleComposer.kt"
+  ],
+  "更改日期": [
+    "ScheduleComposer.kt"
+  ],
+  "日程日期": [
+    "ScheduleComposer.kt"
+  ],
+  "引用任务": [
+    "ScheduleComposer.kt"
+  ],
+  "临时安排": [
+    "ScheduleComposer.kt"
+  ],
+  "没有可引用的未完成任务，可以创建临时安排": [
+    "ScheduleComposer.kt"
+  ],
+  "查找任务": [
+    "ScheduleComposer.kt",
+    "ScheduleComposer.kt"
+  ],
+  "引用任务：{0}": [
+    "ScheduleComposer.kt"
+  ],
+  "显示名称（可选）": [
+    "ScheduleComposer.kt"
+  ],
+  "日程显示名称": [
+    "ScheduleComposer.kt"
+  ],
+  "默认跟随任务名称": [
+    "ScheduleComposer.kt"
+  ],
+  "临时安排内容": [
+    "ScheduleComposer.kt"
+  ],
+  "记下一项安排…": [
+    "ScheduleComposer.kt"
+  ],
+  "时段": [
+    "ScheduleComposer.kt"
+  ],
+  "具体时间（可选）": [
+    "ScheduleComposer.kt"
+  ],
+  "例如 09:30": [
+    "ScheduleComposer.kt"
+  ],
+  "具体时间": [
+    "ScheduleComposer.kt"
+  ],
+  "请选择要引用的任务": [
+    "ScheduleComposer.kt"
+  ],
+  "请填写安排内容": [
+    "ScheduleComposer.kt"
+  ],
+  "请填写有效钟点，例如 09:30": [
+    "ScheduleComposer.kt"
+  ],
+  "保存日程": [
+    "ScheduleComposer.kt"
+  ],
+  "删除日程": [
+    "ScheduleComposer.kt"
+  ],
+  "保存修改或放弃编辑后，可以删除日程。": [
+    "ScheduleComposer.kt"
+  ],
+  "周一": [
+    "ScheduleScene.kt"
+  ],
+  "周二": [
+    "ScheduleScene.kt"
+  ],
+  "周三": [
+    "ScheduleScene.kt"
+  ],
+  "周四": [
+    "ScheduleScene.kt"
+  ],
+  "周五": [
+    "ScheduleScene.kt"
+  ],
+  "周六": [
+    "ScheduleScene.kt"
+  ],
+  "周日": [
+    "ScheduleScene.kt"
+  ],
+  "背景图片暂不可用，可重新选择": [
+    "ScheduleScene.kt"
+  ],
+  "留些空白，也留些期待。": [
+    "ScheduleScene.kt"
+  ],
+  "收起": [
+    "ScheduleScene.kt",
+    "ScheduleScene.kt"
+  ],
+  "展开": [
+    "ScheduleScene.kt",
+    "ScheduleScene.kt"
+  ],
+  "{0}日期：{1}": [
+    "ScheduleScene.kt"
+  ],
+  "{0} 月": [
+    "ScheduleScene.kt"
+  ],
+  "{0} 月 / {1}": [
+    "ScheduleScene.kt"
+  ],
+  "{0}月{1}日{2}添加日程": [
+    "ScheduleScene.kt"
+  ],
+  "留白": [
+    "ScheduleScene.kt"
+  ],
+  "编辑日程：{0}": [
+    "ScheduleScene.kt"
+  ],
+  "事项卡片：": [
+    "TaskBoard.kt"
+  ],
+  "轻点展开 · 长按移动 · 上下滑动": [
+    "TaskBoard.kt"
+  ],
+  "有材料已删除，已移除对应选择，请核对后保存": [
+    "TaskDetailsPanel.kt"
+  ],
+  "任务说明（可选）": [
+    "TaskDetailsPanel.kt"
+  ],
+  "任务说明": [
+    "TaskDetailsPanel.kt"
+  ],
+  "关联已有材料": [
+    "TaskDetailsPanel.kt"
+  ],
+  "可以选择任意对象已保存的材料；关联共用一份副本，移动任务后继续保留。": [
+    "TaskDetailsPanel.kt"
+  ],
+  "还没有材料，请先在对象的材料分支添加。": [
+    "TaskDetailsPanel.kt"
+  ],
+  "关联材料：{0}": [
+    "TaskDetailsPanel.kt"
+  ],
+  "保存说明与关联": [
+    "TaskDetailsPanel.kt"
+  ],
+  "还没有事项": [
+    "ThingsScene.kt"
+  ],
+  "点击右下角加号，创建任务或对象": [
+    "ThingsScene.kt"
+  ],
+  "全局概览": [
+    "ThingsScene.kt"
+  ],
+  "今天，留一点余地。": [
+    "design\\MeadowDesign.kt"
+  ],
+  "现在，适合做什么？": [
+    "design\\MeadowDesign.kt"
+  ]
+}

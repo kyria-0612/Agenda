@@ -1,0 +1,101 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# Local assistant tooling and generated design reviews
+/.agents/
+/.codex/
+/.impeccable/
+/.taste-skill/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+local.properties
+key.properties
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.key
+
+# Android / Gradle build output and caches
+.gradle/
+.gradle-user-home/
+.kotlin/
+build/
+captures/
+*.apk
+*.aab
+*.apks
+*.dex
+*.hprof
+/artifacts/
+/android/.font-sources/
+/android/dependency-downloads/
+/android/.compat-runtime/
+/android/review/
+
+# Web prototype dependencies and generated output
+node_modules/
+dist/
+.cache/
+.parcel-cache/
+.next/
+coverage/
+playwright-report/
+test-results/
+
+# Python tooling caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Personal submissions and presentation files are never committed
+/交付文档/
+/PPT动图/
+*个人报告*
+*.doc
+*.docx
+*.docm
+*.pdf
+*.ppt
+*.pptx
+*.pptm
+*.pot
+*.potx
+*.potm
+*.pps
+*.ppsx
+*.ppsm
+
+# Downloaded build tools, SDK indexes and generated test summaries
+.build-tools/
+/android/api31-*-repository.xml
+/android/*-instrumentation-*.txt
+
+# Archives and signing secrets
+*.zip
+*.7z
+*.rar
+*.pem

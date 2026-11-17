@@ -1,0 +1,1 @@
+function markActivePalette(){const root=document.querySelector('#directions'),id=root.dataset.mobileStyle;root.querySelectorAll('.direction').forEach(el=>el.classList.toggle('is-active',el.dataset.direction===id))}markActivePalette();document.addEventListener('click',e=>{if(e.target.closest('[data-style]'))markActivePalette()});

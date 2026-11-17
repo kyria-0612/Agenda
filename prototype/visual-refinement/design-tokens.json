@@ -1,0 +1,203 @@
+{
+  "fontRoles": {
+    "english": "Space Grotesk",
+    "numbers": "Manrope",
+    "chineseTitle": "Noto Serif SC",
+    "chineseBody": "Noto Sans SC"
+  },
+  "glass": {
+    "topAlpha": 0.64,
+    "bottomAlpha": 0.32,
+    "blurPx": 12,
+    "saturate": 1.3,
+    "radiusPx": 18
+  },
+  "schemes": [
+    {
+      "id": "paper",
+      "letter": "A",
+      "title": "暖纸 · 融合修订",
+      "en": "Warm paper",
+      "line": "纸页的温度，夜航的英文，透光的浮层。",
+      "description": "沿用纸页手账的米白与墨棕。保留中文宋体标题与黑体正文，英文改用 Space Grotesk，数字单独使用 Manrope；新增、搜索、周计划都统一为暖色玻璃面。",
+      "colors": [
+        [
+          "画布",
+          "#F4F0E7"
+        ],
+        [
+          "内容面",
+          "#FFFCF5"
+        ],
+        [
+          "正文",
+          "#35372F"
+        ],
+        [
+          "辅助文字",
+          "#6A685B"
+        ],
+        [
+          "主色",
+          "#7D532B"
+        ],
+        [
+          "提醒",
+          "#A84236"
+        ]
+      ],
+      "fonts": "中文标题 Noto Serif SC，中文正文 Noto Sans SC；英文字母 Space Grotesk；所有数字 Manrope。正文 15px，标题 24px，日期 38px；辅助文字至少 12px。",
+      "type": "把日子，写成自己的。",
+      "fontName": "宋体标题 / 黑体正文 / 分字形混排",
+      "englishSample": "Agenda / A quieter day.",
+      "icons": "沿用纸页 Agenda Line：24px 网格、1.5px 平端线条，21px 图标；墨棕色与小方点表示选中。",
+      "material": "内容卡片保持纸面；浮层采用暖白半透明面、12px 背景模糊、轻微饱和度增强与透光细边。浮层 18px 圆角，输入区保持透明，主要按钮维持清楚对比。",
+      "motion": "220ms 展开、160ms 控件反馈；减少动态效果时取消动画。",
+      "risk": "配色与上一轮纸页一致，本版用来验证字体组合和玻璃材质。背景模糊不可用时自动退回高不透明度纸白面。",
+      "quote": "日子不必填满，重要的事慢慢来。",
+      "accent": "#7D532B"
+    },
+    {
+      "id": "mist",
+      "letter": "B",
+      "title": "月白墨蓝 · 新配色",
+      "en": "Porcelain blue",
+      "line": "降低暖黄感，用月白与墨蓝重新平衡。",
+      "description": "同一套融合字体与玻璃材质，换成微冷月白、深墨正文和低饱和墨蓝。比原纸页更清透，避免铜棕色占据注意力；不靠亮蓝或大面积渐变制造差别。",
+      "colors": [
+        [
+          "画布",
+          "#EEF1F4"
+        ],
+        [
+          "内容面",
+          "#FAFCFE"
+        ],
+        [
+          "正文",
+          "#2E3742"
+        ],
+        [
+          "辅助文字",
+          "#606C7B"
+        ],
+        [
+          "主色",
+          "#4E6583"
+        ],
+        [
+          "提醒",
+          "#A34C45"
+        ]
+      ],
+      "fonts": "与暖纸版完全一致：中文标题 Noto Serif SC，中文正文 Noto Sans SC；英文字母 Space Grotesk，所有数字 Manrope。只比较配色，不混入字体或布局变化。",
+      "type": "把日子，写成自己的。",
+      "fontName": "宋体标题 / 黑体正文 / 分字形混排",
+      "englishSample": "Agenda / A quieter day.",
+      "icons": "与暖纸版完全一致：1.5px 平端线条、21px 图标、小方点选中；仅将墨棕改为墨蓝。",
+      "material": "与暖纸版相同的透明度、模糊、细边与圆角。玻璃面染成微冷白，强调色改为低饱和墨蓝，工作卡片仍为稳定的不透明底面。",
+      "motion": "220ms 展开、160ms 控件反馈；减少动态效果时取消动画。",
+      "risk": "更清冷、清楚，适合长时间阅读；保留宋体标题的亲切感。最终配色仍待选择，不自动替换正式原型。",
+      "quote": "日子不必填满，重要的事慢慢来。",
+      "accent": "#4E6583"
+    }
+  ],
+  "contrastChecks": [
+    {
+      "scheme": "暖纸 · 融合修订",
+      "foreground": "正文",
+      "background": "画布",
+      "ratio": 10.62
+    },
+    {
+      "scheme": "暖纸 · 融合修订",
+      "foreground": "辅助文字",
+      "background": "画布",
+      "ratio": 4.93
+    },
+    {
+      "scheme": "暖纸 · 融合修订",
+      "foreground": "主色",
+      "background": "画布",
+      "ratio": 5.87
+    },
+    {
+      "scheme": "暖纸 · 融合修订",
+      "foreground": "提醒",
+      "background": "画布",
+      "ratio": 5.28
+    },
+    {
+      "scheme": "暖纸 · 融合修订",
+      "foreground": "正文",
+      "background": "内容面",
+      "ratio": 11.79
+    },
+    {
+      "scheme": "暖纸 · 融合修订",
+      "foreground": "辅助文字",
+      "background": "内容面",
+      "ratio": 5.47
+    },
+    {
+      "scheme": "暖纸 · 融合修订",
+      "foreground": "主色",
+      "background": "内容面",
+      "ratio": 6.52
+    },
+    {
+      "scheme": "暖纸 · 融合修订",
+      "foreground": "提醒",
+      "background": "内容面",
+      "ratio": 5.86
+    },
+    {
+      "scheme": "月白墨蓝 · 新配色",
+      "foreground": "正文",
+      "background": "画布",
+      "ratio": 10.64
+    },
+    {
+      "scheme": "月白墨蓝 · 新配色",
+      "foreground": "辅助文字",
+      "background": "画布",
+      "ratio": 4.72
+    },
+    {
+      "scheme": "月白墨蓝 · 新配色",
+      "foreground": "主色",
+      "background": "画布",
+      "ratio": 5.27
+    },
+    {
+      "scheme": "月白墨蓝 · 新配色",
+      "foreground": "提醒",
+      "background": "画布",
+      "ratio": 5.04
+    },
+    {
+      "scheme": "月白墨蓝 · 新配色",
+      "foreground": "正文",
+      "background": "内容面",
+      "ratio": 11.73
+    },
+    {
+      "scheme": "月白墨蓝 · 新配色",
+      "foreground": "辅助文字",
+      "background": "内容面",
+      "ratio": 5.2
+    },
+    {
+      "scheme": "月白墨蓝 · 新配色",
+      "foreground": "主色",
+      "background": "内容面",
+      "ratio": 5.81
+    },
+    {
+      "scheme": "月白墨蓝 · 新配色",
+      "foreground": "提醒",
+      "background": "内容面",
+      "ratio": 5.55
+    }
+  ]
+}

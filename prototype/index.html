@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f4f4f2">
+  <title>Agenda · 交互原型</title>
+  <link rel="stylesheet" href="./styles.css?v=20261020states1">
+</head>
+<body>
+  <svg class="icon-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-flip" viewBox="0 0 24 24"><path d="M3 7h17m0 0-4-4m4 4-4 4M21 17H4m0 0 4-4m-4 4 4 4"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 4v16M4 12h16"/></symbol>
+    <symbol id="i-network" viewBox="0 0 24 24"><circle cx="5" cy="6" r="2"/><circle cx="18" cy="5" r="2"/><circle cx="12" cy="18" r="2"/><path d="m7 6 9 0M6 8l5 8m6-9-4 9"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m8 5 11 7-11 7z"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 10h18"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></symbol>
+    <symbol id="i-overview" viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></symbol>
+    <symbol id="i-week" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 10h18M9 10v11m6-11v11"/></symbol>
+    <symbol id="i-view-cards" viewBox="0 0 24 24"><rect x="6" y="4" width="15" height="16" rx="2"/><path d="M3 7v10M10 9h7M10 13h7"/></symbol>
+    <symbol id="i-view-hanging" viewBox="0 0 24 24"><path d="M2 5h20M7 5v4m10-4v4"/><path d="M4 9h7v11H4zM13 9h7v11h-7z"/></symbol>
+    <symbol id="i-more" viewBox="0 0 24 24"><circle cx="5" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5 19 19M19 5 5 19"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M6 2h8l5 5v15H6zM14 2v5h5"/></symbol>
+    <symbol id="i-note" viewBox="0 0 24 24"><path d="M4 4h16v16H4zM8 9h8M8 13h8M8 17h5"/></symbol>
+    <symbol id="i-edit" viewBox="0 0 24 24"><path d="m4 20 4-.8L20 7a2 2 0 0 0-3-3L5 16z"/></symbol>
+  </svg>
+  <div class="desktop-stage">
+    <div id="app" class="app-shell">
+      <div class="status-line" aria-hidden="true"><span>9:41</span><span>● ▰</span></div>
+      <header class="app-header">
+        <button id="header-left" class="icon-button" aria-label="切换任务板" title="翻牌切换视图"></button>
+        <div class="header-actions">
+          <button id="header-extra" class="icon-button" aria-label="查看周计划" title="查看周计划" hidden></button>
+          <button id="header-search" class="icon-button" aria-label="搜索" title="搜索"><svg><use href="#i-search"/></svg></button>
+        </div>
+      </header>
+      <div id="storage-status" role="status" hidden></div>
+      <main id="main" aria-live="polite"></main>
+      <div id="week-root"></div>
+      <button id="header-add" class="icon-button floating-add" aria-label="新增" title="新增"><svg><use href="#i-plus"/></svg></button>
+      <nav class="primary-nav" aria-label="一级页面导航；点空白处可显示按钮" tabindex="0">
+        <button data-main="things" aria-label="事项" title="事项"><svg><use href="#i-network"/></svg></button>
+        <button data-main="action" aria-label="行动" title="行动"><svg><use href="#i-play"/></svg></button>
+        <button data-main="schedule" aria-label="日程" title="日程"><svg><use href="#i-calendar"/></svg></button>
+      </nav>
+      <div id="toast" role="status" aria-live="polite"></div>
+      <div id="overlay-root"></div>
+    </div>
+  </div>
+  <script src="./app.js?v=20261020states1" defer></script>
+</body>
+</html>

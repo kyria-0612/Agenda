@@ -1,0 +1,87 @@
+globalThis.agendaVisualConfig={
+  "initialSheet": null,
+  "schemes": [
+    {
+      "fonts": "沿用已确认的混排：英文字母 Space Grotesk，数字 Manrope；中文标题 Noto Serif SC，中文正文 Noto Sans SC。",
+      "type": "把日子，写成自己的。",
+      "fontName": "英文 / 数字 / 中文角色保持一致",
+      "englishSample": "Agenda / A quieter day.",
+      "icons": "Agenda Line · 24px 网格，1.5px 平端线条；图标和导航规则不变。",
+      "material": "玻璃浮层沿用 64% → 32% 色面、12px 模糊、130% 饱和度和 18px 圆角；内容卡片保持稳定底面。",
+      "motion": "220ms 展开、160ms 控件反馈。",
+      "quote": "日子不必填满，重要的事慢慢来。",
+      "id": "charcoal",
+      "title": "炭灰青 · V1",
+      "sourceColors": [
+        "#EEEEEE",
+        "#00ADB5",
+        "#393E46",
+        "#222831"
+      ],
+      "line": "已保存：浅灰主色，青色强调。",
+      "ground": "#EEEEEE",
+      "surface": "#FAFAFA",
+      "ink": "#222831",
+      "muted": "#59616B",
+      "accent": "#00ADB5",
+      "accentText": "#00767C",
+      "select": "#00ADB5",
+      "selectInk": "#222831",
+      "buttonInk": "#222831",
+      "control": "#00767C",
+      "lineColor": "#CDD2D6",
+      "tint": "250,250,250",
+      "glassShadow": "34,40,49",
+      "danger": "#A13E36",
+      "done": "#376C60",
+      "selected": "#DCEFF0",
+      "note": "将原色 EEEEEE 作为大面积画布，内容面提亮为近白；222831 用于正文，393E46 用于标题与图标。00ADB5 保留在当前日期和主要按钮，小字号青色文字适当加深。玻璃浮层改为浅色染色。",
+      "letter": "V1",
+      "description": "将原色 EEEEEE 作为大面积画布，内容面提亮为近白；222831 用于正文，393E46 用于标题与图标。00ADB5 保留在当前日期和主要按钮，小字号青色文字适当加深。玻璃浮层改为浅色染色。",
+      "risk": "沿用原始四个参考色，以浅灰为主；近白内容面与深青文字属于可读性派生色。字体、图标、布局和玻璃参数保持一致。",
+      "referenceImage": "../palette-lab/references/4.png",
+      "colors": [
+        [
+          "画布",
+          "#EEEEEE"
+        ],
+        [
+          "内容面",
+          "#FAFAFA"
+        ],
+        [
+          "正文",
+          "#222831"
+        ],
+        [
+          "辅助文字",
+          "#59616B"
+        ],
+        [
+          "强调文字",
+          "#00767C"
+        ],
+        [
+          "日期选中",
+          "#00ADB5"
+        ],
+        [
+          "日期文字",
+          "#222831"
+        ],
+        [
+          "主要按钮",
+          "#00ADB5"
+        ],
+        [
+          "按钮文字",
+          "#222831"
+        ],
+        [
+          "提醒",
+          "#A13E36"
+        ]
+      ]
+    }
+  ]
+};

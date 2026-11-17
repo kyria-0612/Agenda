@@ -1,0 +1,34 @@
+[
+  {
+    "family": "Noto Sans SC",
+    "alias": "Agenda Sans",
+    "file": "notosanssc.woff",
+    "source": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+    "subset": "Created locally from the official full font. No project data sent.",
+    "bytes": 289784
+  },
+  {
+    "family": "Noto Serif SC",
+    "alias": "Agenda Serif",
+    "file": "notoserifsc.woff",
+    "source": "https://github.com/google/fonts/tree/main/ofl/notoserifsc",
+    "subset": "Created locally from the official full font. No project data sent.",
+    "bytes": 381832
+  },
+  {
+    "family": "Manrope",
+    "alias": "Manrope",
+    "file": "manrope.woff",
+    "source": "https://github.com/google/fonts/tree/main/ofl/manrope",
+    "subset": "Created locally from the official full font. No project data sent.",
+    "bytes": 32840
+  },
+  {
+    "family": "Space Grotesk",
+    "alias": "Space Grotesk",
+    "file": "spacegrotesk.woff",
+    "source": "https://github.com/google/fonts/tree/main/ofl/spacegrotesk",
+    "subset": "Created locally from the official full font. No project data sent.",
+    "bytes": 37464
+  }
+]
